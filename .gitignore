@@ -396,3 +396,18 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Internal folders
+archives
+archives/*
+
+# Python cache
+__pycache__
+__pycache__/*
+
+# Python venv
+venv
+venv/*
+
+# Mac files
+.DS_Store

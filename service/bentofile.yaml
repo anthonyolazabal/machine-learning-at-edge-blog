@@ -1,0 +1,11 @@
+service: "service:quality_check_service"
+labels:
+  owner: hivemq-aol
+  project: quality-index
+include:
+  - "*.py"
+python:
+  packages:
+    - tensorflow
+    - pandas
+    - numpy
